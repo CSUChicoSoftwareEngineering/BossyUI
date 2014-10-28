@@ -9,7 +9,7 @@
 </head>
 
 <body ng-app="myApp" ng-controller="AppCtrl">
-<multiselect multiple="true" ng-model="selectedChoice" options="c.name for c in choices" change="selected()"></multiselect>
+<bossy-multiselect multiple="true" ng-model="selectedChoice" options="c.name for c in choices" change="selected()"></bossy-multiselect>
 <div>
     {{selectedChoice}}
 </div>
