@@ -36,7 +36,7 @@ Interested in contributing? Checkout our [contributing guide](/CONTRIBUTING.md).
 
 <b> Lukas Fink: </b> International student from Germany. Major: Media Technologie with focus on Media Informatics. Enrolled to Software Engineering to get to know workflows and programming skills from the US as well as improving my own skills. 5th Semester in Germany.
 
-## Project Inforation
+## Project Information
 https://github.com/CSUChicoSoftwareEngineering/BossyUI
 All files pertaining to project are in the src directory.
 Directives and templates in src/directives and src/directives/templates respectively
