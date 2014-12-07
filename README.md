@@ -22,7 +22,7 @@ Interested in contributing? Checkout our [contributing guide](/CONTRIBUTING.md).
 
 [Examples](http://buildcom.github.io/BossyUI/#/) of bossy directives
 
-Presentation information:
+## Presentation information:
 
 Widgets
 	[Team]
