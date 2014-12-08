@@ -13,18 +13,23 @@ describe('bossyCombobox',function() {
   // MultiSelect
   // Select Multiple objects in list
     it("Should be able to click multiple objects in list", function() {
-      expect
+      expect(mSelect()).tobetrue();
 
 
   });
 
   // None Selected
-    it("Should
+    it("Should have all elements unchecked in list", function() {
+      expect(mNoSelected()).tobetrue();
+
+    });
 
   
-  
   // All Selected
-  
+    it("Should have all elements checked in list", function() {
+      expect(mAllSelected()).tobetrue();
+
+    });
 
 
 }
