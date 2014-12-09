@@ -1,6 +1,27 @@
 describe('bossyCombobox',function() {
   var myFunction = BC.myFunction;
 
+  // do this in order to test a controller within a module:
+
+  /*
+  describe("module", function () {
+     beforeEach(module("nameOfModule"));
+
+    describe("nameOfController", function () {
+
+      beforeEach(inject(function ($rootScope, $controller) {
+        scope = $rootScope;
+        controller = $controller;
+      }));
+
+      it("should be anything", function () {
+        controller("nameOfController", {$scope: scope});
+        expect(something).toSomething();
+      });
+    });
+   });
+   */
+
   // If we need to setup beforeEach Statements
   //beforeEach(function(){ });
 
@@ -29,6 +50,23 @@ describe('bossyCombobox',function() {
     it("", function() {
       expect(mCheckString()).tobetrue();
     });
-
-
 }
+
+  // test for cascading if array is defined
+
+describe("module", function () {
+  beforeEach(module("bossy.cascadingDropdown"));
+
+  describe("AppCtrl", function () {
+
+    beforeEach(inject(function ($rootScope, $controller) {
+      scope = $rootScope;
+      controller = $controller;
+    }));
+
+    it("should be true", function () {
+      controller("AppCtrl", {$scope: scope});
+      expect(scope.choices).toBeDefined();
+    });
+  });
+});
