@@ -1,9 +1,20 @@
+/**
+ * Bossy Combobox Cascading Dropdown feature
+ * The choices of the following dropdown are depedent on the previous selection.
+ *
+ * @author Bossy/UI
+ */
+
 var app = angular.module("bossy.combobox.cascadingDropdown", []);
+
+/**
+ * App-Controller to set up model
+ * Adds choices for the three dropdowns
+ * Dependencies within arrays: A - A1 - A1a
+ */
 
 app.controller('AppCtrl', function($scope) {
 
-    // add choices for the 3 dropdowns
-    // dependencies in arrays (A - A1 - A1a)
     $scope.choices = {
         'Option A': {
             'Option A1': ['Option A1a', 'Option A1b', 'Option A1c'],
