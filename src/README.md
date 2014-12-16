@@ -1,3 +1,26 @@
+
+<h1>List of Widgets</h1>
+<ul>
+  <li>Combo box w/ checkbox- bossy.checkboxMultiselect.js</li>
+  <li>Combo box - bossy.multiselect.js</li>
+</ul>
+
+
+<h3>Combo box w/ checkbox - bossy.checkboxMultiselect.js</h3>
+Description here for combo box w/ checkbox! (like below)
+
+<h3>Combo box - bossy.multiselect.js</h3>
+Description here for combo box! (like below)
+<h3>...</h3>
+
+We're working on the multiselect box and the checkbox multiselect box!
+
+Our widget will:
+* act as a dropdown menu from which users can select multiple options
+* be themable according to BossyUI standards
+* fire events so that other widgets can listen and act upon these events
+
+
 CSU, Chico CSCI 430 Student Teams
 
 =====Team java! (Java Bang)=====
@@ -42,6 +65,7 @@ amaragoul@mail.csuchico.edu
 
 
 <h1> Meet The Team </h1>
+
 
 <strong>    Sean German [Scrum Master, Development] <jsgerman@me.com> </strong>
               Computer Science Major @ CSUChico, Chose this project as it allows me an opportunity to learn angular.js as well as work on a project that will be pushed to a production setting that it will be actually used.
